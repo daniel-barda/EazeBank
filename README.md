@@ -44,3 +44,15 @@ The project is based on the [Vite React](https://vitejs.dev/) setup.
 
 - Lazy loading
 - Suspense
+- Prefetching
+
+## Design Patterns
+
+### Compound Component Pattern
+
+Some of the components I built are highly reusable due to the implementation of the Compound Component Pattern. This design pattern allows for a flexible and composable API, making it easier to manage and extend components.
+
+### Render Props Pattern
+
+I also utilized the Render Props Pattern in some components to share code and functionality across different parts of the application. This pattern enables a more dynamic and flexible component structure, enhancing reusability and maintainability.
+By leveraging these design patterns, EazeBank achieves a modular and maintainable codebase, ensuring scalability and ease of development.
