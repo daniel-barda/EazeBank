@@ -1,0 +1,25 @@
+:root {
+  --color-slate-100: rgb(241 245 249);
+  --color-cyan-950: rgb(8 51 68);
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-grey-lighten: #f1f3f5;
+  --color-grey-dark: #212529;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 1.6rem;
+}
