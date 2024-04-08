@@ -27,7 +27,7 @@ export default function useClipBoard() {
         .then(() => {
           // If successful, update the isCopied state value
           setIsCopied(true);
-          setTimeout(() => {
+          const timer = setTimeout(() => {
             setIsCopied(false);
           }, 1500);
         })
@@ -39,6 +39,7 @@ export default function useClipBoard() {
     return () => {
       if (clipBoardEL) {
         currentEl.removeEventListener("click", handleCopyClick);
+        clearTimeout(timer);
       }
     };
   }, []);
